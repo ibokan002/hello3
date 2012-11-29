@@ -13,6 +13,7 @@
 		0FF3A30C16672C2D00BEC23C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3A30A16672C2D00BEC23C /* InfoPlist.strings */; };
 		0FF3A30E16672C2D00BEC23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3A30D16672C2D00BEC23C /* main.m */; };
 		0FF3A31216672C2D00BEC23C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3A31116672C2D00BEC23C /* AppDelegate.m */; };
+		0FF3A31A166748B300BEC23C /* Nstime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3A319166748B300BEC23C /* Nstime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0FF3A30F16672C2D00BEC23C /* hhh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hhh-Prefix.pch"; sourceTree = "<group>"; };
 		0FF3A31016672C2D00BEC23C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FF3A31116672C2D00BEC23C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FF3A318166748B300BEC23C /* Nstime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nstime.h; sourceTree = "<group>"; };
+		0FF3A319166748B300BEC23C /* Nstime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nstime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				0FF3A31016672C2D00BEC23C /* AppDelegate.h */,
 				0FF3A31116672C2D00BEC23C /* AppDelegate.m */,
 				0FF3A30816672C2D00BEC23C /* Supporting Files */,
+				0FF3A318166748B300BEC23C /* Nstime.h */,
+				0FF3A319166748B300BEC23C /* Nstime.m */,
 			);
 			path = hhh;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				0FF3A30E16672C2D00BEC23C /* main.m in Sources */,
 				0FF3A31216672C2D00BEC23C /* AppDelegate.m in Sources */,
+				0FF3A31A166748B300BEC23C /* Nstime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
